@@ -3,7 +3,7 @@
 #
 #
 #                                                        :::      ::::::::
-#   push_swap_tester/check-for-null-arguments.sh       :+:      :+:    :+:
+#   push_swap_tester/null-argument.sh                  :+:      :+:    :+:
 #                                                    +:+ +:+         +:+
 #   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+
 #                                                +#+#+#+#+#+   +#+
