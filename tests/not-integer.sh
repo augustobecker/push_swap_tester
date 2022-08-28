@@ -31,9 +31,9 @@ SOME_NEGATIVES="-10 -3 -5 -99"
 
 if [ ${ERROR1} -ge 1 ]
 then
-	echo -e -n "${CYAN}Not Integers:       $GREEN  [OK] $RESET"
+	echo -e -n "${CYAN}Not Integers:           $GREEN  [OK] $RESET"
 else
-	echo -e -n "${CYAN}Not Integers:       $RED  [KO] $RESET"
+	echo -e -n "${CYAN}Not Integers:           $RED  [KO] $RESET"
 fi
 
 if [ ${ERROR2} -ge 1 ]
