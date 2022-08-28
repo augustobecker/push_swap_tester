@@ -3,7 +3,7 @@
 #
 #
 #                                                        :::      ::::::::
-#   push_swap_tester/check-for-repeated-argumet.sh     :+:      :+:    :+:
+#   push_swap_tester/repeated-argumet.sh               :+:      :+:    :+:
 #                                                    +:+ +:+         +:+
 #   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+
 #                                                +#+#+#+#+#+   +#+
