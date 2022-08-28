@@ -32,9 +32,9 @@ SOME_NEGATIVES="-10 -3 -5 -99"
 
 if [ ${ERROR1} -ge 1 ]
 then
-	echo -e -n "${CYAN}Check Map with an Empty Line: $GREEN  [OK] $RESET"
+	echo -e -n "${CYAN}Repeated Arguments: $GREEN  [OK] $RESET"
 else
-	echo -e -n "${CYAN}Check Map with an Empty Line: $RED  [KO] $RESET"
+	echo -e -n "${CYAN}Repeated Arguments: $RED  [KO] $RESET"
 fi
 
 if [ ${ERROR2} -ge 1 ]
