@@ -3,7 +3,7 @@
 #
 #
 #                                                        :::      ::::::::
-#   push_swap_tester/check-for-not-integers.sh         :+:      :+:    :+:
+#   push_swap_tester/not-integer.sh                    :+:      :+:    :+:
 #                                                    +:+ +:+         +:+
 #   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+
 #                                                +#+#+#+#+#+   +#+
