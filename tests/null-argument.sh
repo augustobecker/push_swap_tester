@@ -22,12 +22,12 @@ SOME_NEGATIVES="-10 -3 -5 -99"
       BIG_COMB=$(export ARGS="$(shuf -i 1-100 | xargs)" && echo $ARGS)
 	 HUGE_COMB=$(export ARGS="$(shuf -i 1-500 | xargs)" && echo $ARGS)
 
-      ERROR1=$(./../../$NAME $SMALL_COMB "" $SOME_NEGATIVES | grep "Error" | wc -l)
-      ERROR2=$(./../../$NAME $SMALL_COMB " " $SOME_NEGATIVES | grep "Error" | wc -l)
-      ERROR3=$(./../../$NAME $BIG_COMB "" $SOME_NEGATIVES | grep "Error" | wc -l)
-      ERROR4=$(./../../$NAME $BIG_COMB " " $SOME_NEGATIVES | grep "Error" | wc -l)
-      ERROR5=$(./../../$NAME $HUGE_COMB "" $SOME_NEGATIVES | grep "Error" | wc -l)
-      ERROR6=$(./../../$NAME $HUGE_COMB " " $SOME_NEGATIVES | grep "Error" | wc -l)
+      ERROR1=$(./../$NAME $SMALL_COMB "" $SOME_NEGATIVES | grep "Error" | wc -l)
+      ERROR2=$(./../$NAME $SMALL_COMB " " $SOME_NEGATIVES | grep "Error" | wc -l)
+      ERROR3=$(./../$NAME $BIG_COMB "" $SOME_NEGATIVES | grep "Error" | wc -l)
+      ERROR4=$(./../$NAME $BIG_COMB " " $SOME_NEGATIVES | grep "Error" | wc -l)
+      ERROR5=$(./../$NAME $HUGE_COMB "" $SOME_NEGATIVES | grep "Error" | wc -l)
+      ERROR6=$(./../$NAME $HUGE_COMB " " $SOME_NEGATIVES | grep "Error" | wc -l)
 
 if [ ${ERROR1} -ge 1 ]
 then
